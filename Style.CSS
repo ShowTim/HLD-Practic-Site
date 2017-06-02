@@ -1,0 +1,259 @@
+*    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header  {
+    width: 100%;
+}
+
+body    {
+    background-color: #020100;
+}
+
+header img {
+    display: block;
+    max-width: 80%;
+    max-height: 300px;
+    margin: auto; 
+    padding-top: 5%;
+}
+
+@font-face{
+    font-family: drifter;
+    src: url('Font/Hyper Light Drifter Menu Text.ttf');
+}
+
+
+    nav {
+        list-style: none;
+        margin-top: 0%;
+        padding: 0;
+        width: 100%;
+        border: 0;    
+    }
+    
+    
+    nav ul {
+        list-style: none;
+        margin:0;
+        border:0;
+        padding: 0;
+        width: 100%;
+           
+    }
+    
+    nav ul li {
+        box-sizing: border-box;
+        float: left;
+        width: 20%;
+        padding-top: 10%;
+        margin-bottom: 25%;
+        color: #e60b86;
+        text-align: center;
+        font-family: drifter, exo, sans-serif; 
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 5% 12%;
+        font-weight: bold;
+        font-size: 18px;
+        color: #e60b86;
+        text-decoration: none;
+        text-align: center;
+    }
+        
+    
+    h1 {
+        color:#e60b86;
+        font-family: drifter, exo, sans-serif; 
+        font-size: 4vw;
+        margin-top: 10%;
+        padding-left: 5%;
+    }
+    
+    #overview { 
+        clear: both;
+        padding-top: 10%;
+        overflow: hidden; 
+    }
+    
+    #overview p {
+        padding-top: 5%;
+    }
+    
+    #overview img {
+        padding-top: 4%;
+        width: 60%;
+        max-width: 50%;
+        height: auto;
+        float: left;
+
+    }
+    
+    p {
+        color: #17f7fa;
+        font-family: exo;
+        font-size: 1.5em;
+    }
+    
+    #setting {
+        clear: both;
+        margin-top: 20%;
+        overflow: hidden;         
+    }
+    
+    #setting img{
+        width: 50%;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 1%;
+        height: auto;
+        float: left;
+    }
+    
+    #setting p {
+        padding-top: 3%;
+    }    
+    
+    
+    #characters {
+        clear: both;
+        margin-top: 20%;
+        overflow: hidden;         
+    }
+    
+    #characters h1 {
+        padding-left: 2%;
+    }
+    
+    #characters img{
+        width: 50%;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 1%;
+        height: auto;
+        float: left;
+    }
+    
+    #characters p {
+        padding-top: 2%;
+    }    
+        
+        
+    #story {
+        clear: both;
+        margin-top: 20%;
+        overflow: hidden;         
+    }
+    
+    #story img{
+        width: 50%;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 1%;
+        height: auto;
+        float: left;
+    }
+    
+    #story p {
+        padding-top: 2%;
+    }        
+            
+    #legacy {
+        clear: both;
+        margin-top: 20%;
+        overflow: hidden; 
+    }
+    
+    #legacy img{
+        width: 50%;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 1%;
+        height: auto;
+        float: left;
+
+    }    
+    
+    #legacy p {
+        padding-top: 2%;
+    }         
+    
+    
+    
+    footer img {
+        clear: both;
+        height: auto;
+        width: 100%;
+        margin-top: 15%;
+    }
+    
+    
+    
+    
+    
+    
+     @media screen and (max-width: 1080px) {
+         nav {
+             width: 100%;
+             margin-bottom: 10px;
+             
+         }
+         nav ul {
+             list-style: none;
+             margin: 0 auto;
+             padding: 0;
+         }
+         nav ul li {
+             text-align: center;
+             margin-left: 0 auto;
+             width: 100%;
+             margin: 0;
+             padding: 0;
+         }
+         
+         header {
+            margin-bottom: 5%;
+         }
+    
+         nav ul li a {
+             padding: 8px 0;
+             font-size: 16px;
+         }}
+    
+   
+   @media screen and (max-width: 760px) {
+        body {
+            font-size: 12px;
+        }
+    }    
+    
+   
+   @media screen and (max-width: 400px) {
+        #overview img, #setting img, #story img, #characters img, #legacy img {
+            float: none;
+            width: 100%;
+            max-width: 100%;
+        }
+        h1, p {
+            text-align: center;
+        }
+        #overview h1 {
+            padding-right: 10%;
+        }
+        
+    }     
+    
+   @media screen and (max-width: 650px) {
+        #overview {
+            padding-top: 30%;
+        }
+    }       
+    
+    
+    
+    
+    
